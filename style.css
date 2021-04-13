@@ -1,0 +1,169 @@
+header {
+    position: relative;
+    background-color: #FFFFFF;
+    position: absolute;
+    height: 890px;
+    width: 1680px;
+    left: 80px;
+    top: 80px;
+    border-radius: 0px;
+    }
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    width: 1392px;
+    height: 72px;
+    top: 120px;
+    left: 144px;
+}
+
+.lorem {
+    margin-bottom: 80px;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+    width: 1392px;
+    height: 100px;
+    top: 102px;
+}
+.table {
+    border: 1px solid black;
+    height: 439px;
+    width: 622px;
+    left: 529px;
+    top: 402px;
+    margin-left: 400px;   
+}
+
+.table > p {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 40px 36px 30px 36px;
+    height: 36px;
+    width: 558px;
+    left: 593px;
+    top: 466px;
+}
+
+.table__Fn {
+    padding: 8px 14px;
+    margin-left: 37px;
+    height: 40px;
+    width: 237px;
+    left: 593px;
+    top: 545px
+    }
+
+.table__Ln {
+    padding: 8px 14px;
+    margin-left: 8.8px;
+    height: 40px;
+    width: 237px;
+    left: 850px;
+    top: 545px;
+
+}
+.table__EA {
+    padding: 8px 40px 8px 14px;
+    margin: 20px 37px;
+    height: 40px;
+    width: 494px;
+    left: 593px;
+    top: 609px;    
+}
+
+.table__Cp {
+    padding: 8px 40px 8px 14px;
+    margin: 0px 37px 20px 37px;
+    height: 40px;
+    width: 494px;
+    left: 593px;
+    top: 673px;
+}
+.table__R {
+    color: #FFFFFF;
+    background-color: #18A0FB;
+    margin-left: 37px;
+    height: 40px;
+    width: 130px;
+    left: 0px;
+    top: 0px;
+    border-radius: 6px;
+    outline: none;
+}
+
+section {
+    display: flex;
+    position: absolute;
+    height: 240px;
+    width: 1680px;
+    left: 80px;
+    top: 1081px;
+}
+
+.section__left {
+    margin-left: 90px;
+    font-size: 36px;
+    line-height: 50px;
+    height: 100px;
+    width: 1007px;
+    left: 80px;
+    top: 120px;
+    border-radius: nullpx;
+}
+
+.section__right {
+    color: #FFFFFF;
+    background-color: #18A0FB;
+    margin-top: 50px;
+    height: 52px;
+    width: 192px;
+    left: 0px;
+    top: 0px;
+    border-radius: 6px;
+    outline: none;
+}
+
+footer {
+    display: flex;
+    margin: 1300px 40px;
+}
+
+.footer__left {
+    margin-left: 125px;
+    font-size: 36px;
+    line-height: 50px;
+    height: 100px;
+    width: 888px;
+    left: 80px;
+    top: 120px;
+    border-radius: nullpx;
+}
+
+.footer__right_JT {
+    margin-right: 30px;
+    color: #FFFFFF;
+    background-color: #18A0FB;
+    margin-top: 50px;
+    height: 52px;
+    width: 192px;
+    left: 0px;
+    top: 0px;
+    border-radius: 6px;
+    outline: none;
+}
+
+.footer__right_Cu {
+    border: 1px solid #18A0FB;
+    color: #18A0FB;
+    background-color: #FFFFFF;
+    margin-top: 50px;
+    height: 52px;
+    width: 192px;
+    left: 0px;
+    top: 0px;
+    border-radius: 6px;
+    outline: none;
+
+}
