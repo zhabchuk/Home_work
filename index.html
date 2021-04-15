@@ -7,6 +7,7 @@
 </head>
 <body>
     <header>
+        <!--  Не надо засовывать 'h1' в тег 'p'. Это является ошибкой. Если для тега 'h1' нужен контейнер, чтобы выровнить, используй тег 'div' -->
         <p>
             <h1>Redy to take a free trial?</h1>
         </p>
@@ -18,6 +19,7 @@
         <div class='table'>
             <p>Sign up for a free account</p>
             <form action="">
+                <!-- Не стоит называть классы так. Надо задавать название классам желательно по методологий БЭМ. Это мы проходили на прошлом уроке. -->
                 <input class="table__Fn" type="text" placeholder="First name">
                 <input class="table__Ln" type="text" placeholder="Last nsme"><br>
                 <input class="table__EA" type="email" placeholder="Email Adress"><br>
@@ -32,7 +34,9 @@
             <p class="section__left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br> sed do eiusmod tempor incididunt ut labore</p>
         </div>
         <div>
+            <!-- Тут должна быть просто кнопка. Без тега form. Так как мы на сервер ничего не отправляем. form надо использовать тогда, когда вы у пользователя берем информацию -->
             <form action="">
+                <!-- Тут должен был быть button -->
                 <input class="section__right" type="submit" value="Join Today">
             </form>
         </div>
@@ -43,9 +47,11 @@
             <p class="footer__left">Lorem ipsum dolor sit amet, consectetur adipisicing <br> elit, sed do eiusmod tempor incididunt ut labore</p>
         </div>
         <div>
+             <!-- Тут должен был быть button, так как мы ничего не отправляем на сервер -->
             <input class="footer__right_JT" type="submit" value="Join Today">
         </div>
         <div>
+             <!-- Тут должен был быть button, так как мы ничего не отправляем на сервер -->
             <input class="footer__right_Cu" type="submit" value="Contact us">
         </div>
     </footer>
